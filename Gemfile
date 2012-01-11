@@ -18,6 +18,8 @@ end
 
 group :development do
 	gem 'rspec-rails'
+	gem 'annotate',
+	:git => 'git://github.com/jeremyolliver/annotate_models.git', :branch => 'rake_compatibility'
 end
 
 group :test do
